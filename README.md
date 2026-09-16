@@ -1,11 +1,15 @@
-# Home Finder
+# Home Finder — Vercel-ready files
 
-Open home-finder.html in your browser to use the standalone app. No installation or build is required.
+Upload index.html, style.css, app.js, vercel.json and this README directly to the root of your GitHub repository. Do not upload the ZIP itself or put these files inside an extra folder.
 
-Editable source files are in source/: index.html, style.css, app.js. Open source/index.html in a browser, or serve the source folder with any static web server.
+Vercel project settings:
+- Framework Preset: Other
+- Root Directory: repository root (leave blank)
+- Build Command: no build command
+- Output Directory: . (the project root)
 
-Default budget: CAD $550,000–$680,000. Includes filters, saved homes, manually added listings, REW and REALTOR.ca search links, and email drafts.
+Commit the updated files and deploy the new commit. The included vercel.json selects a static project without a build step.
 
-Initial homes are unverified conversation data. Live listing imports and automatic email delivery are not connected. Email drafts must be reviewed and sent through your email app. Daily alerts can be configured separately on REW.
+Open index.html locally to use the app. No package.json, npm install, server code or API keys are required for this static version.
 
-Filters and saved homes stay in the browser; they do not sync across devices or file/web addresses. No API keys or dependencies are required.
+The app contains unverified initial homes, browser-local favourites, source search links and email drafts. It does not collect live listings or automatically send daily emails.
